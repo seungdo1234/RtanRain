@@ -26,7 +26,7 @@ public class Rain : MonoBehaviour
         transform.position = new Vector3(x, y, 0);
 
         int type = Random.Range(1, 5);
-
+        
         switch (type)
         {
             case 1:
